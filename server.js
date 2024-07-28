@@ -6,7 +6,7 @@ import "express-async-errors";
 import dotenv from 'dotenv';
 import cors from 'cors';
 import morgan from 'morgan';
-//security packages
+// security packages
 import helmet from 'helmet';
 import xss from 'xss-clean';
 import ExpressMongoSanitize from 'express-mongo-sanitize';
